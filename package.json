@@ -1,0 +1,15 @@
+{
+  "name": "8bits-server",
+  "version": "1.0.0",
+  "description": "Servidor de salas para el modo en línea de 8-Bits",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

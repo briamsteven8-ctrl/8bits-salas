@@ -1,0 +1,9 @@
+# Configuración para Render (https://render.com): servicio web gratuito con el servidor de salas
+services:
+  - type: web
+    name: 8bits-salas
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
