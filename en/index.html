@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gem · 8-Bits</title>
+<meta name="description" content="Gem, makers of 8-Bits: 8-bit style arcade games for Android and iOS, with sports for 2 players.">
+<link rel="icon" href="../icono.png">
+<style>
+  :root { --night: #05041a; --panel: #120c33; --line: #34287a; --text: #f4efff; --dim: #a99fd6; --pink: #ff3df0; --cyan: #29e6ff; --gold: #ffd23d; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--night); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    background-image: radial-gradient(circle at 20% 10%, #1d1450 0, transparent 45%), radial-gradient(circle at 85% 30%, #2a0d3f 0, transparent 40%); min-height: 100vh; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 32px; }
+  .hero { text-align: center; }
+  .hero img { width: 128px; height: 128px; image-rendering: pixelated; border-radius: 24px; box-shadow: 0 0 0 3px var(--line), 0 0 40px #ff3df055; }
+  h1 { font-size: 40px; margin: 20px 0 4px; letter-spacing: 2px; color: var(--cyan); text-shadow: 3px 3px 0 var(--pink); }
+  .by { color: var(--dim); margin: 0 0 24px; }
+  .card { background: var(--panel); border: 2px solid var(--line); border-radius: 14px; padding: 20px; margin: 20px 0; }
+  .card h2 { margin: 0 0 8px; font-size: 19px; color: var(--gold); }
+  ul { margin: 8px 0 0; padding-left: 20px; }
+  a { color: var(--cyan); }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 8px; }
+  .links a { display: inline-block; padding: 10px 16px; border: 2px solid var(--line); border-radius: 10px; text-decoration: none; background: var(--panel); }
+  .links a:hover { border-color: var(--cyan); }
+  .card.new { border-color: var(--pink); box-shadow: 0 0 24px #ff3df033; }
+  .tag { display: inline-block; font-size: 12px; padding: 2px 6px; margin-right: 6px; border-radius: 6px; background: var(--pink); color: var(--night); vertical-align: middle; }
+  .lead { margin: 0 0 12px; color: var(--dim); }
+  .sports { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+  .sport { background: #0b0a24; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  .sport b { display: block; color: var(--cyan); margin-bottom: 2px; }
+  .sport span { font-size: 15px; color: var(--text); }
+  footer { text-align: center; color: var(--dim); font-size: 14px; margin-top: 32px; }
+  .langs { display: flex; justify-content: center; gap: 6px; margin: 0 0 20px; font-size: 14px; }
+  .langs a { padding: 4px 10px; border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--dim); }
+  .langs a[aria-current] { color: var(--night); background: var(--cyan); border-color: var(--cyan); }
+</style>
+<link rel="alternate" hreflang="es" href="https://briamsteven8-ctrl.github.io/">
+<link rel="alternate" hreflang="en" href="https://briamsteven8-ctrl.github.io/en/">
+<link rel="alternate" hreflang="fr" href="https://briamsteven8-ctrl.github.io/fr/">
+</head>
+<body>
+<main>
+  <nav class="langs" aria-label="Language"><a href="../">Español</a><a href="./" aria-current="page">English</a><a href="../fr/">Français</a></nav>
+  <section class="hero">
+    <img src="../icono.png" alt="8-Bits icon">
+    <h1>8-BITS</h1>
+    <p class="by">A game by <b>Gem</b></p>
+    <p>Dozens of 8-bit style arcade games in one app: classics, adventures, sports and a two-player mode.
+      Coming soon to Google Play and the App Store.</p>
+  </section>
+
+  <section class="card">
+    <h2>What's inside</h2>
+    <ul>
+      <li>Retro arcade, action, puzzle, adventure and sports games.</li>
+      <li>Two-player mode on the same PC or with two phones in a room.</li>
+      <li>Outfits and companions for your heroes, and skins for your favorite games.</li>
+      <li>No sign-up, and you can play offline (the two-phone mode needs internet).</li>
+    </ul>
+  </section>
+
+  <section class="card new">
+    <h2><span class="tag">NEW</span> Sports to challenge a friend</h2>
+    <p class="lead">Each one with its own mechanic. Play against the computer or against another person.</p>
+    <div class="sports">
+      <div class="sport"><b>Basketball</b><span>Charge your shot and release it in the green zone. Steal, block and hit threes.</span></div>
+      <div class="sport"><b>Beach Volley</b><span>Jump and spike at sunset. Up to 3 touches per side.</span></div>
+      <div class="sport"><b>Air Hockey</b><span>The puck takes the power of your hit and bounces off the rails.</span></div>
+      <div class="sport"><b>Boxing</b><span>Guard, hook and counterpunch, round by round.</span></div>
+      <div class="sport"><b>Baseball</b><span>Throw curves and fastballs, or swing at just the right moment.</span></div>
+      <div class="sport"><b>Sumo</b><span>Charge your rush and push your rival out of the ring.</span></div>
+      <div class="sport"><b>Mini Golf</b><span>Holes with a windmill, water, sand and ramps.</span></div>
+      <div class="sport"><b>Hurdles</b><span>Alternate ← → to run and jump the hurdles.</span></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Support</h2>
+    <p>Questions, bugs or a problem with a purchase? Write to us at
+      <a href="mailto:briamsteven8@gmail.com">briamsteven8@gmail.com</a>.</p>
+  </section>
+
+  <nav class="links">
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms of use</a>
+  </nav>
+
+  <footer>© 2026 Gem · Colombia</footer>
+</main>
+</body>
+</html>
